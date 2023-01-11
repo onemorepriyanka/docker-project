@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="DockerProject" />
+        <module name="child-project-1" />
+        <module name="child-project-2" />
+        <module name="child-project-3" />
       </profile>
     </annotationProcessing>
   </component>
