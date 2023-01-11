@@ -1,3 +1,3 @@
 FROM openjdk:17
-ADD target/DockerProject.jar DockerProject.jar
+ADD out/artifacts/DockerProject_jar/DockerProject.jar DockerProject.jar
 ENTRYPOINT ["java", "-jar", "DockerProject.jar"]
